@@ -5,6 +5,7 @@
     margin: 10px auto;
 }
 .nav-box-wrapper{
+    font-family: 'BPG Boxo-Boxo';
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -12,6 +13,10 @@
 }
 .nav-box ul{
     display: flex;
+}
+.nav-box li:nth-child(3){
+    font-family: 'Indie Flower';
+    font-weight: bolder;
 }
 .nav-box a{
     margin-right: 23px;
@@ -29,11 +34,14 @@
     width: 100%;
 }
 .container h1{
+    font-family: 'ALK Sanet';
+    font-weight: bolder;
     font-size: 32px;
     text-align: center;
     margin: 50px 0;
 }
 .article-wrapper{
+    font-family: 'BPG Boxo-Boxo';
     width: 100%;
     display: flex;
 }
@@ -61,6 +69,8 @@
 }
 .more{
     font-size: 20px;
+    font-family: 'Indie Flower';
+    font-weight: bold;
     color: rgb(0,0,0);
     display: flex;
     justify-content: flex-end;
@@ -69,7 +79,9 @@
     
 }
 .last-more{
-    font-size: 20px;
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    font-weight: bolder;
     color: rgb(0,0,0);
     margin-top: 30px;
     justify-content: center;
@@ -79,10 +91,13 @@
 
 .container h2{
     font-size: 27px;
+    font-family: 'ALK Sanet';
+    font-weight: bolder;
     margin: 40px 0;
     text-align: center;
 }
 footer{
+    font-family: 'BPG Boxo-Boxo';
     background-color:#2E2E2E;
     margin-top: 70px;
     padding: 15px;
