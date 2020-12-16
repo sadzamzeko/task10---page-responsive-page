@@ -1,0 +1,27 @@
+.container{
+    max-width: 1160px;
+    width: 90%;
+    /* background-color: rosybrown; */
+    margin: 10px auto;
+}
+.nav-box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+}
+.nav-box ul{
+    display: flex;
+}
+.nav-box a{
+    margin-right: 23px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.nav-box i{
+    font-size: 22px;
+}
+.responsive-nav{
+    font-size: 22px;
+    display: none;
+}
